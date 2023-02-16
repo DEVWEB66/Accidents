@@ -16,7 +16,18 @@
             <h1>Create an Account</h1>
             <p>Get started for free!</p>
           </div>
+          
+
           <form>
+            <div class="input">
+            <SELECT NAME="ListeUrl" SIZE=1 onChange="ChangeUrl(this.form)">
+              <OPTION SELECTED VALUE="">-Choix de la langue-</option>
+                <img src="" height="13px"/><option value="">Francais</option>
+              <img src="" height="13px"/><option value="">anglais</option>
+              <img src="" height="13px"/><option value="">espagnol</option>
+              </SELECT>
+            </div>
+
             <div class="input">
               <i class="fa-solid fa-user"></i>
               <input type="text" placeholder="Username" />
